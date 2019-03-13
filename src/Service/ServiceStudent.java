@@ -6,6 +6,11 @@ import Repository.StudentRepo;
 public class ServiceStudent {
     private StudentRepo rep;
     public ServiceStudent(StudentRepo rep){this.rep=rep;}
+
+    public ServiceStudent() {
+
+    }
+
     /**
      * Adauga student
      * Returneaza studentul adaugat*/
