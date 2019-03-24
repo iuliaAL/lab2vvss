@@ -18,7 +18,7 @@ public class AppTest {
     public void addStudentTest_1() {
         Student s = new Student("1", "Maricica Blablabla", 934, "mari@yahoo.com", "Ioan Ratiu");
 
-        StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+        StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
         ServiceStudent srv = new ServiceStudent(rep);
 
         srv.add(s);
@@ -29,7 +29,7 @@ public class AppTest {
     @Test
     public void addStudentTest_4() {
         Student s = new Student("2", "Maricica Blablabla", 112, "mari@yahoo.com", "Ioan Ratiu");
-        StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+        StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
         ServiceStudent srv = new ServiceStudent(rep);
 
         srv.add(s);
@@ -40,7 +40,7 @@ public class AppTest {
     @Test
     public void addStudentTest_5() {
         Student s = new Student("3", "Maricica Blablabla", 911, "mari@yahoo.com", "Ioan Ratiu");
-        StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+        StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
         ServiceStudent srv = new ServiceStudent(rep);
 
         srv.add(s);
@@ -56,7 +56,7 @@ public class AppTest {
         SoftAssert softAssert = new SoftAssert();
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -72,7 +72,7 @@ public class AppTest {
         Student s = new Student(null, "Maricica Blablabla", 911, "mari@yahoo.com", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -86,7 +86,7 @@ public class AppTest {
         Student s = new Student("234", "Maricica Blablabla", 999, "mari@yahoo.com", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -100,7 +100,7 @@ public class AppTest {
         Student s = new Student("1998", "Maricica Blablabla", 147, "mari@yahoo.com", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -114,7 +114,7 @@ public class AppTest {
         Student s = new Student("1998", "Maricica Blablabla", 934, "mariyahoocom", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -128,7 +128,7 @@ public class AppTest {
         Student s = new Student("1998", "Maricica Blablabla", 934, "mariyahoo.com", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -142,7 +142,7 @@ public class AppTest {
         Student s = new Student("1998", "Maricica Blablabla", 934, "mari@yahoocom", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -156,7 +156,7 @@ public class AppTest {
         Student s = new Student("198", "Mari123", 934, "mari@yahoo.com", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -170,7 +170,7 @@ public class AppTest {
         Student s = new Student("1998", "Mari", 934, "mari@yahoo.com", "Ioan #1");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
@@ -184,7 +184,7 @@ public class AppTest {
         Student s = new Student("1", "Maricica Blablabla", 937, "mari@yahoo.com", "Ioan Ratiu");
 
         try {
-            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "/Users/IuliaLazar/Downloads/LabAssiAsseProjectV04 4/src/studenti.xml");
+            StudentRepo rep = new StudentRepo((Validator.Validator<Student>) new StudentValidator(), "C:\\Users\\Alexandra\\Desktop\\LabAssiAsseProjectV04\\src\\studenti.xml");
             ServiceStudent srv = new ServiceStudent(rep);
 
             srv.add(s);
