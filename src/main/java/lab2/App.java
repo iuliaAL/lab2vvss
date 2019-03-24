@@ -1,4 +1,4 @@
-package lab2vvss;
+package lab2;
 
 /**
  * Hello world!

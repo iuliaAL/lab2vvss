@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 import java.util.Map;
 import java.util.Random;
 import java.lang.Object;
-
 public class Nota implements hasID<Map.Entry<String,Integer>>{
     private Map.Entry<String,Integer> id;
     private Student st;

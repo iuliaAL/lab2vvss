@@ -1,6 +1,6 @@
 package Domain;
 
-public class Student implements hasID<String> {
+public class Student implements Domain.hasID<String> {
     private String idStudent;
     private String nume;
     private int grupa ;
